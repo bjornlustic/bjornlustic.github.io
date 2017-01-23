@@ -1,0 +1,100 @@
+body {
+    font-size: 12px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#email_form {
+	text-align: center;
+	width: 140px;
+	margin-left: 45%;
+}
+
+#title {
+	font-family: "Roboto", sans-serif bold;
+	text-align: center;
+	font-size: 100px;
+	font-style: italic;
+	padding-top: 20px;
+}
+
+#established {
+	text-align: center;
+	font-style: italic;
+	font-size: 12px;
+
+	padding-bottom: 30px;
+
+}
+
+#underline {
+	border: 5px white solid;
+	margin: -3px -3px -13px -3px;
+}
+
+#container {
+	/* margin: 11px -22px -1px -10px; */
+	overflow: hidden;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.eventbox {
+	
+	float: left;
+	width: 25%;
+	/* margin: 50px 10px 10px 50px; */
+	border-radius: 10px;
+	/* margin: 0 0 0 0; */
+	/* box-shadow: 1px 1px 1px 1px #888888; */
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.eventboxshop {
+	border: 20px white solid;
+	float: center;
+	width: 25%;
+	/* margin: 50px 10px 10px 50px; */
+	border-radius: 10px;
+	/* margin: 0 0 0 0; */
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+    margin: -10px 5px -10px 5px;
+
+}
+
+.caption {
+    margin: -21px 0px 0px 0px;
+}
+
+form {
+	width: 200px;
+	margin-left: 45%;
+}
+
+input[type="text"] {
+    text-align: center;
+    float: center;
+    /* margin-top: 10px; */
+}
+
+textarea {
+    text-align: center;
+    float: center;
+    margin-top: 10px;
+}
