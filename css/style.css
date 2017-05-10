@@ -25,6 +25,13 @@ a, a:visited, a:hover, a:active {
 	font-family: "Roboto", sans-serif;
 }
 
+.blogpick {
+	color: black;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	padding-top: 100px;
+}
+
 #pictures {
 	max-width: 100%;
 	height: auto;
