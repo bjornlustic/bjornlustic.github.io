@@ -1,4 +1,4 @@
-body {
+.index {
     font-size: 12px;
     color: #000;
     font-family: "Roboto", sans-serif;
@@ -7,16 +7,78 @@ body {
     text-align: center;
 }
 
-#Bjorn {
+
+a, a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: black;
 	font-family: "Roboto", sans-serif bold;
 	text-align: center;
-	font-size: 100px;
+	
 	font-style: italic;
 	padding-top: 20px;
 	color: inherit;
 }
 
-a, a:visited, a:hover, a:active {
-	text-decoration: none;
+.blog {
 	color: black;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+#pictures {
+	max-width: 100%;
+	height: auto;
+	left: 0px;
+	right: 0px;
+
+}
+
+#pictureblogtop {
+	width: 30%;
+	height: auto;
+	left: 0px;
+	margin-top: 12px;
+	right: 0px;
+}
+
+#banner {
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: white;
+	width: 100%
+}
+
+#banner-content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 24px;
+	border: 1px solid #e5e5e5;
+	margin-top: -1px;
+	margin-right: -1px;
+	margin-left: -1px;
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 100;
+}
+
+#albumtitle {
+	margin-top: 110px;
+	font-size: 24px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+}
+
+#explanation {
+	font-family: "Roboto", sans-serif;
+	font-weight: 200;
+	padding-top: 24px;
+	padding-left: 12%;
+	padding-right: 12%;
+	text-align: left;
+	line-height: 180%;
+}
+
+#spaces {
 }
