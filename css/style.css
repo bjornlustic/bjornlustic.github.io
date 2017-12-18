@@ -13,21 +13,19 @@ a, a:visited, a:hover, a:active {
 	text-decoration: none;
 	color: black;
 	font-family: "Roboto", sans-serif;
-	text-align: center;
 	font-style: italic;
 	padding-top: 20px;
+	margin-left: 9%;
 	color: inherit;
 }
 
 .blog {
 	color: black;
-	text-align: center;
 	font-family: "Roboto", sans-serif;
 }
 
 .blogpick {
 	color: black;
-	text-align: center;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -35,6 +33,7 @@ a, a:visited, a:hover, a:active {
 	max-width: 100%;
 	height: auto;
 	left: 0px;
+	text-align: center;
 	right: 0px;
 
 }
@@ -43,6 +42,7 @@ a, a:visited, a:hover, a:active {
 	width: 55%;
 	height: auto;
 	left: 0px;
+	margin-left: -10%;
 	right: 0px;
 }
 
@@ -50,7 +50,7 @@ a, a:visited, a:hover, a:active {
 	width: 55%;
 	height: auto;
 	left: 0px;
-	margin-top: 0px;
+	margin-left: -1%;
 	right: 0px;
 }
 
@@ -118,6 +118,7 @@ a, a:visited, a:hover, a:active {
 	font-size: 16px;
 	word-spacing: 500px;
 	font-weight: 100;
+	text-align: left;
 	
 }
 
@@ -136,6 +137,7 @@ a, a:visited, a:hover, a:active {
 	margin-top: 90px;
 	font-size: 24px;
 	font-family: "Roboto", sans-serif;
+	text-align: center;
 	font-weight: bold;
 }
 
